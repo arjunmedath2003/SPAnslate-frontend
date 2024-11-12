@@ -1,0 +1,237 @@
+.container4 {
+    background-color: #4c4c4c;
+    width: 100vw;
+    height: 100vh;              /* Ensure full viewport height */
+    display: flex;               /* Enable Flexbox */
+    justify-content: center;     /* Center horizontally */
+    align-items: center;         /* Center vertically */
+}
+
+.leftside4{
+    width: 250px; /* Adjust width as needed */
+    background-color: #2c2b29;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5);
+    height: 97%;
+    margin-right: 15px;
+}
+
+.interact4{
+    display: flex;
+    flex-direction: column;
+}
+
+.interact4 .button44{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: #211b1b 0px 0px 10px;
+    background-color: #66a2c5;
+}
+
+.interact4 .button44:hover{
+    background-color: #42b1f1;
+}
+
+#filelist4{
+    color: white;
+}
+
+.hh4{
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: #ffffff 0px 0px 10px;
+    border-radius: 6px;
+    cursor: default;
+}
+
+.dets4{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #2c2b29;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+    flex-direction: column;
+}
+
+.back4{
+    cursor: pointer;
+    color:rgb(27, 16, 16);
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: #211b1b 0px 0px 10px;
+    background-color: #fe89eb;
+    margin-top: 150px;
+}
+
+.back4:hover{
+    background-color: #bd23a9;
+}
+
+.log-b1{
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.log-b1 button:hover {
+    background-color: #bd23a9;
+}
+
+.user-name4 {
+    font-size: 20px;
+}
+
+.translated-page4 {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    width: 80vw;
+    max-width: 1200px;
+    height: 99vh;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1e1e;
+    box-sizing: border-box;
+}
+
+.notification44 {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    padding: 10px;
+    background-color: #ffdddd; /* Light red background */
+    color: #d8000c; /* Red text */
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+    border-radius: 25px;
+    /* opacity: 0; */
+    transition: top 1s ease;
+}
+
+.showlist4{
+    width: 35%;
+    height: 100%;
+}
+
+.display4{
+    width: 65%;
+    height: 100%;
+    position: relative;
+}
+
+#pdfIframe4{
+    width:100%;
+    height:100%;
+    border: none;
+}
+
+.file-display4 {
+    flex: 12;
+    background-color:#333;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    height: 90vh; 
+    width: 800px;
+    display: flex;
+    gap: 16px;
+}
+
+.actions4 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sing4 {
+    width: 35px;
+}
+
+.sing14{
+    width: 40px;
+}
+
+.actions4 button {
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50; 
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+}
+
+.actions4 button:hover {
+    background-color: #45a049; 
+    transform: scale(1.05);
+}
+
+#downloadBtn4 { background-color: #4CAF50; }
+#editButton4 { background-color: #2196F3; }
+#saveButton4 { background-color: #FF9800; }
+#mergeButton4 {background-color: #f7786b;}
+
+#downloadBtn4:hover { background-color: #388E3C; }
+#editButton4:hover { background-color: #1976D2; }
+#saveButton4:hover { background-color: #F57C00; }
+#mergeButton4:hover {background-color: #eb5c4c;}
+
+.loading4 {
+    position: absolute;
+    top: 0; /* Align to the top */
+    left: 0; /* Align to the left */
+    right: 0; /* Stretch to the right */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    z-index: 100;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.spinner4 {
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-top-color: #3498db; /* Customize color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}

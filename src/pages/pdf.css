@@ -1,0 +1,486 @@
+.main-layout1 {
+    display: flex;
+    height: 100vh; /* Full viewport height */
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    height: 100vh;
+    background-color: /*#92e1b0*/ #1e1e1e;
+}
+
+.dropdown1 {
+    max-height: 200px;  /* Limit the height of the dropdown */
+    overflow-y: auto;  /* Enable vertical scrolling if content overflows */
+    overflow-x: hidden; /* Disable horizontal scrolling */
+    border: 1px solid black;  /* Optional: Add border to dropdown */
+    padding: 5px;  /* Optional: Add padding for better appearance */
+    background-color: white;
+    position: absolute;
+    z-index: 100;
+    width:19.8vw;
+}
+
+.loading1 {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px; /* Adjust as needed */
+}
+
+.spinner1 {
+    
+    width: 40px;
+    height: 40px;
+    border: 5px solid rgba(0, 0, 0, 0.1);
+    border-top-color: #3498db; /* Customize color */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.notification12 {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    padding: 10px;
+    background-color: #ffdddd; /* Light red background */
+    color: #d8000c; /* Red text */
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+    border-radius: 25px;
+    /* opacity: 0; */
+    transition: top 1s ease;
+    margin-left: 10vw;
+}
+
+
+#language1{
+    width: 20vw;
+    height: 30px;
+    font-size: 16px;
+}
+
+.items1{
+    height: 30px;
+    font-size: 16px;
+    align-content: center;
+}
+.items1:hover{
+    background-color: lightgrey;
+}
+
+.p11{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+#li1{
+    display: block;
+    padding: 0px 20px;
+}
+#pdfIframe1{
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.li1{
+    color: white;
+}
+#ul1{
+    align-items: center;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.header1 {
+    width: 250px; /* Adjust width as needed */
+    background-color: #2c2b29;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 2px 0px 10px rgba(0, 0, 0, 0.5); /* Shadow effect on the right side */
+}
+.hh1{
+    padding: 20px;
+    background-color: #1e1e1e;
+    color: white;
+    text-align: center;
+    font-size: 24px;
+    box-shadow: #ffffff 0px 0px 10px;
+    border-radius: 6px;
+    cursor: default;
+}
+.container1 {
+    flex-grow: 1; /* Allows it to fill the remaining space */
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    background-color: #1e1e1e;
+}
+.left-box1 {
+    width: 700px; 
+    background-color: #333;
+    padding: 20px;
+    margin-right: 10px;
+    box-shadow: #060000 0px 0px 10px;
+}
+
+.right-box1 {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+}
+.upper-right1 {
+    flex: 1;
+}
+.buttons1 {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.buttons1 button {
+    padding: 20px 20px;
+    border-radius: 50%;
+    background-color: #fe89eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    box-shadow: #060000 2px 2px 7px;
+}
+
+.buttons1 button:hover {
+    background-color: #d232ba;
+}
+
+.interact1{
+    display: flex;
+    flex-direction: column;
+}
+
+.interact1 .button11{
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: #211b1b 0px 0px 10px;
+    background-color: #66a2c5;
+}
+
+.interact1 .button11:hover{
+    background-color: #42b1f1;
+}
+
+.lower-right-box1 {
+    flex: 1;
+    background-color: #333;
+    padding: 20px;
+    margin-top: 20px;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: #060000 2px 2px 10px;
+}
+
+.dropdown-container1 {
+    width: 200px;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  #dropdownSearch1 {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+    cursor: pointer;
+  }
+  
+  .dropdown-list1 {
+    display: none; /* Initially hidden */
+    position: absolute;
+    width: 100%;
+    border: 1px solid #ccc;
+    background-color: #766c6c;
+    z-index: 1;
+  }
+  
+  #languageDropdown1 {
+    width: 100%;
+    overflow-y: auto;
+    height: auto;
+    max-height: 90px; /* Limit to 3 options */
+  }
+  
+
+/* 
+.lower-right-box .file-name {
+    cursor: pointer;
+} */
+
+.dets1{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    background-color: #2c2b29;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 20px; 
+    cursor: pointer;
+}
+.user-photo1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.user-name1 {
+    font-size: 20px;
+}
+.ss1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    background-color: #e8be16;
+    cursor: pointer;
+    box-shadow: #060000 2px 2px 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+.small-square11 button:hover{
+    background-color: rgb(177, 146, 20);
+}
+
+.input-button-container11 {
+    display: flex;
+    gap: 8px; /* Adjust gap as needed */
+    align-items: center;
+}
+
+.detect1{
+    flex: 1;
+    background-color:  #333;
+    padding: 20px;
+    margin-top: 200px;
+    border-radius: 5px;
+    box-shadow: #060000 2px 2px 10px;
+    height: 200px;
+}
+.action1{
+    cursor: pointer;
+    background-color:#156797;
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 120px;
+}
+.log-b1{
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+.lb1{
+    cursor: pointer;
+    color:rgb(27, 16, 16);
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: #211b1b 0px 0px 10px;
+    background-color: #fe89eb;
+}
+.log-b1 button:hover {
+    background-color: #bd23a9;
+}
+.sin-b1{
+    cursor: pointer;
+    /* background-color:rgb(62, 195, 50); */
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.sb1{
+    cursor: pointer;
+    color:rgb(27, 16, 16);
+    border: none;
+    width: 100px;
+    height: 30px;
+    font-size:20px;
+    border-radius: 5px;
+    box-shadow: #211b1b 0px 0px 10px;
+    background-color: #fe89eb;
+}
+.sin-b1 button:hover {
+    background-color: #bd23a9;
+}
+/*.modal{
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+}
+.login-box {
+    background-color: white;
+    padding: 40px;
+    border-radius: 10px;
+    width: 400px;
+    text-align: center;
+    position: relative;
+}*/
+
+.close1 {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+.h1 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.textbox1 {
+    margin-bottom: 20px;
+}
+
+.k1 {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.btn1 {
+    width: 100px;
+    padding: 10px;
+    background-color: #2a7968;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.inp-con1, .inp-con2 {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.icon1 {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #3b2525;
+}
+
+
+
+.inp-con1 input, .inp-con2 input {
+    width: 100%;
+    padding-left: 40px; 
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.detect1 button:hover{
+    background-color: #447ecf;
+}
+
+.dm1 {
+    cursor: pointer;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    width: 40px; 
+    height: 40px; 
+    background-color: transparent;
+}
+
+
+/*new*/
+
+/* Base styling for all buttons */
+.button1 {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+/* Hover effect for buttons */
+.button1:hover {
+    transform: scale(1.05); /* Slightly enlarge the button */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add a shadow */
+}
+
+/* Active effect for buttons */
+.button1:active {
+    transform: scale(0.95); /* Slightly shrink when clicked */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Softer shadow */
+}
+
+/* Custom styles for specific buttons */
+#uploadButton1 {
+    background-color: #4CAF50; /* Example green color */
+    color: white;
+}
+
+#downloadButton1 {
+    background-color: #2196F3; /* Example blue color */
+    color: white;
+}
+
+#detectLanguageButton1 {
+    background-color: #FF9800; /* Example orange color */
+    color: white;
+}
+
+#translateButton1 {
+    background-color: #9C27B0; /* Example purple color */
+    color: white;
+}
+
+#addFileButton1 {
+    background-color: #F44336; /* Example red color */
+    color: white;
+}
+
+/* Optional: add a slight rotation on hover for a unique touch */
+.button1:hover {
+    transform: scale(1.05) rotate(1deg);
+}
+
+  

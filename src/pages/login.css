@@ -1,0 +1,90 @@
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../images/wall41.JPG');
+}
+
+.notification22 {
+    position: fixed;
+    top: 0;
+    width: 30%;
+    padding: 10px;
+    background-color: #ffdddd; /* Light red background */
+    color: #d8000c; /* Red text */
+    text-align: center;
+    font-weight: bold;
+    z-index: 1000;
+    border-radius: 25px;
+    transition: top 1s ease;
+    margin-left: 10vw;
+}
+
+.left-box2 {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    background-color: #875800;
+    opacity: 0.8;
+}
+
+.right-box2 {
+flex: 1;
+padding: 20px;
+background-color: rgb(84, 36, 14);
+opacity: 0.9;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(10px); /* Apply blur to the background */
+-webkit-backdrop-filter: blur(10px); /* For Safari */
+margin-right: 400px;
+}
+
+
+#h2 {
+    margin-bottom: 10px;
+    color: #ffffff;
+}
+
+#p2 {
+    color: #ffffff;
+}
+
+
+.input2 {
+    width: 535px;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ebad39;
+    border-radius: 5px;
+    background-color: #deb76e;
+}
+
+.button2 {
+    width: 90px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: #0056b3;
+}
+
+.a2 {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.a2:hover {
+    text-decoration: underline;
+}
